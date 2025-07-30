@@ -1,0 +1,19 @@
+{
+  "title": "vapo™ - hali",
+  "typed_js_title": "<span id=\"title-adjective\"></span> vagyunk.",
+  "briefly_about_us": "Röviden Magunkról",
+  "zsut" : {
+    "full_name": "Varga Zsolt",
+    "bio": "Sziasztok!\uD83D\uDC4B Jelenleg a 4sys Kft-nál dolgozom .NET  fejlesztőként. A fő erősségem a C#, mivel régebben sok játékot készítettem Unity-ben."
+  },
+  "david" : {
+    "full_name": "Pokol Dávid",
+    "bio": "Helló!\uD83D\uDC4B Engem főleg az Iot világa mozgat meg leginkább. Ebből kifolyólag a HomeAssistant, rpi, Arduino, Linux, stb. szavakra ragyog fel a szemem igazán..\uD83E\uDD23 "
+  },
+  "projects": "Projektjeink",
+  "ongoing_projects": "Folyamatban lévő projektek",
+  "no_ongoing_projects": "most pihi van",
+  "archive": "Archívum",
+  "old_blog_site": "Régi blog oldal",
+  "footer_text": "Copyright © 2025 vapo-codes. Minden jog fenntartva."
+}

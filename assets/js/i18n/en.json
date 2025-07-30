@@ -1,0 +1,19 @@
+{
+  "title": "vapo™ - hii",
+  "typed_js_title": "We are <span id=\"title-adjective\"></span>",
+  "briefly_about_us": "Briefly About Us",
+  "zsut" : {
+    "full_name": "Zsolt Varga",
+    "bio": "Hi! \uD83D\uDC4B My name is Zsolt. I am currently working as a .NET developer at 4sys. My main strength is C#, as I used to be interested in making video games in Unity."
+  },
+  "david" : {
+    "full_name": "David Pokol",
+    "bio": "Hello!\uD83D\uDC4B I am mainly fascinated by the world of IoT. For this reason, words like Home Assistant, Raspberry Pi, Arduino, Linux, etc. really excite me..\uD83E\uDD23"
+  },
+  "projects": "Our Projects",
+  "ongoing_projects": "Ongoing projects",
+  "no_ongoing_projects": "no ongoing projects rn",
+  "archive": "Archive",
+  "old_blog_site": "Old blog site",
+  "footer_text": "Copyright © 2025 vapo-codes. All rights reserved."
+}

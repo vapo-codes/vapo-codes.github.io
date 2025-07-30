@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title"></title>
+    <link type="image/svg+xml" rel="icon" href="assets/svg/vapo.svg" media="(prefers-color-scheme: light)">
+    <link type="image/svg+xml" rel="icon" href="assets/svg/vapo-white.svg" media="(prefers-color-scheme: dark)">
+    <link type="text/css" rel="stylesheet" href="assets/css/bulma/bulma.min.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/fontawesome/all.min.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body class="has-navbar-fixed-top is-hidden">
+<nav class="navbar is-transparent is-fixed-top " role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div id="vapo-burger" class="navbar-item is-unselectable is-hidden-desktop">
+            <img id="burger-light" src="assets/svg/vapo.svg" class="theme-dark" alt="vapo-logo" width="28" height="28">
+            <img id="burger-dark" src="assets/svg/vapo-white.svg" class="theme-light" alt="vapo-logo" width="28" height="28">
+        </div>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navbar-menu" class="navbar-menu is-active">
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="tabs is-toggle is-small">
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="radio" id="light-theme-button" value="light" name="theme"/>
+                                <span class="icon">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" id="dark-theme-button" value="dark" name="theme"/>
+                                <span class="icon">
+                                    <i class="fas fa-moon"></i>
+                                </span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" id="system-theme-button" value="system" name="theme"/>
+                                <span class="icon">
+                                    <i class="fas fa-desktop is-hidden-touch is-hidden-mobile"></i>
+                                    <i class="fa-solid fa-tablet-screen-button is-hidden-desktop is-hidden-mobile"></i>
+                                    <i class="fa-solid fa-mobile-screen-button is-hidden-desktop is-hidden-tablet"></i>
+                                </span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="fixed left bottom is-small">
+    <ul id="language-selector">
+        <li>
+            <input type='radio' id="lang-hu" value='hu' name='lang'/>
+            <label for="lang-hu">HU</label>
+        </li>
+        <li>
+            <input type='radio' id="lang-en" value='en' name='lang'/>
+            <label for="lang-en">EN</label>
+        </li>
+        <li>
+    </ul>
+</div>
+
+
+<div class="fixed bottom right">
+    <span id="scroll-to-top" class="icon">
+        <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 330" xml:space="preserve">
+                <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+	            l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+	            C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"/>
+            </svg>
+    </span>
+</div>
+<div class="has-text-centered ">
+    <h1 data-i18n="typed_js_title" class="title is-1 fixed center"></h1>
+    <div id="spacer" style="height: 100dvh;"></div>
+</div>
+<div id="main-container" class="container p-5 my-6">
+    <div id="content-div" class="container">
+        <h2 class="subtitle has-text-centered">
+            <span data-i18n="briefly_about_us"></span>🤏
+        </h2>
+        <div class="columns">
+            <div class="column is-half">
+                <div id="zsut-card" class="card has-text-bg">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image  is-48x48">
+                                    <img class="is-rounded"
+                                         src="https://github.com/VZsolt23.png"
+                                         alt="zsut"
+                                    />
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p data-i18n="zsut.full_name" class="title is-4"></p>
+                                <p class="subtitle is-6">@zsut</p>
+                            </div>
+                        </div>
+                        <div data-i18n="zsut.bio" class="content"></div>
+                        <a href="https://github.com/VZsolt23"
+                           target="_blank"
+                           rel="noopener noreferrer nofollow">
+                            <span class="icon">
+                                <i class="fa-brands fa-github"></i>
+                            </span>
+                        </a>
+                        <a href="https://instagram.com/zsolt.varga_23"
+                           target="_blank"
+                           rel="noopener noreferrer nofollow">
+                            <span class="icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </span>
+                        </a>
+                        <a href="https://x.com/blvr23"
+                           target="_blank"
+                           rel="noopener noreferrer nofollow">
+                            <span class="icon">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-half">
+                <div id="david-card" class="card has-text-bg">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img class="is-rounded"
+                                         src="https://github.com/davidpokol.png"
+                                         alt="david"
+                                    />
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p data-i18n="david.full_name" class="title is-4"></p>
+                                <p class="subtitle is-6">@davidpokolol</p>
+                            </div>
+                        </div>
+                        <div data-i18n="david.bio" class="content"></div>
+                        <a href="https://github.com/davidpokol"
+                           target="_blank"
+                           rel="noopener noreferrer nofollow">
+                            <span class="icon">
+                                <i class="fa-brands fa-github"></i>
+                            </span>
+                        </a>
+                        <a href="https://instagram.com/davidpokolol"
+                           target="_blank"
+                           rel="noopener noreferrer nofollow">
+                            <span class="icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </span>
+                        </a>
+                        <a href="https://x.com/davidpokolol"
+                           target="_blank"
+                           rel="noopener noreferrer nofollow">
+                            <span class="icon">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects-div" class="container has-text-centered">
+        <h2 class="subtitle">
+            <span data-i18n="projects"></span>🧩
+        </h2>
+        <ul>
+            <li>
+                <span class="icon-text">
+                    <span class="icon">
+                        <i class="fa-solid fa-gears"></i>
+                    </span>
+                    <strong data-i18n="ongoing_projects"></strong>
+                </span>
+            <li>
+                <span data-i18n="no_ongoing_projects"></span>🏖️💤
+            </li>
+            <li>
+                <span class="icon-text">
+                    <span class="icon">
+                        <i class="fa-solid fa-box-archive"></i>
+                    </span>
+                    <strong data-i18n="archive"></strong>
+                </span>
+            <li>
+                <a href="/old.blog" data-i18n="old_blog_site"></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<footer id="footer" class="footer">
+    <div class="content has-text-centered">
+        <p data-i18n="footer_text"></p>
+    </div>
+</footer>
+<script type="module" src="assets/js/fontawesome/all.min.js"></script>
+<script type="module" src="assets/js/script.js"></script>
+</body>
+</html>
